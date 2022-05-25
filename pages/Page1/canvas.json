@@ -28,7 +28,7 @@
           "children": [
             {
               "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-              "widgetName": "Table1",
+              "widgetName": "New_Movies",
               "defaultPageSize": 0,
               "columnOrder": [
                 "revenue",
@@ -48,8 +48,8 @@
               "dynamicPropertyPathList": [],
               "displayName": "Table",
               "iconSVG": "/static/media/icon.db8a9cbd.svg",
-              "topRow": 15,
-              "bottomRow": 64,
+              "topRow": 0,
+              "bottomRow": 48,
               "isSortable": true,
               "parentRowSpace": 10,
               "type": "TABLE_WIDGET",
@@ -126,7 +126,7 @@
                   "key": "primaryColumns.homepage.computedValue"
                 }
               ],
-              "leftColumn": 4,
+              "leftColumn": 0,
               "primaryColumns": {
                 "appsmith_mongo_escape_id": {
                   "index": 6,
@@ -143,7 +143,7 @@
                   "isCellVisible": true,
                   "isDerived": false,
                   "label": "_id",
-                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow._id))}}"
+                  "computedValue": "{{New_Movies.sanitizedTableData.map((currentRow) => ( currentRow._id))}}"
                 },
                 "revenue": {
                   "index": 0,
@@ -160,7 +160,7 @@
                   "isCellVisible": true,
                   "isDerived": false,
                   "label": "revenue",
-                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.revenue))}}"
+                  "computedValue": "{{New_Movies.sanitizedTableData.map((currentRow) => ( currentRow.revenue))}}"
                 },
                 "imdb_id": {
                   "index": 1,
@@ -177,7 +177,7 @@
                   "isCellVisible": true,
                   "isDerived": false,
                   "label": "imdb_id",
-                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.imdb_id))}}"
+                  "computedValue": "{{New_Movies.sanitizedTableData.map((currentRow) => ( currentRow.imdb_id))}}"
                 },
                 "release_date": {
                   "index": 2,
@@ -194,7 +194,7 @@
                   "isCellVisible": true,
                   "isDerived": false,
                   "label": "release_date",
-                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.release_date))}}"
+                  "computedValue": "{{New_Movies.sanitizedTableData.map((currentRow) => ( currentRow.release_date))}}"
                 },
                 "genres": {
                   "index": 3,
@@ -211,7 +211,7 @@
                   "isCellVisible": true,
                   "isDerived": false,
                   "label": "genres",
-                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.genres))}}"
+                  "computedValue": "{{New_Movies.sanitizedTableData.map((currentRow) => ( currentRow.genres))}}"
                 },
                 "vote_average": {
                   "index": 4,
@@ -228,7 +228,7 @@
                   "isCellVisible": true,
                   "isDerived": false,
                   "label": "vote_average",
-                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.vote_average))}}"
+                  "computedValue": "{{New_Movies.sanitizedTableData.map((currentRow) => ( currentRow.vote_average))}}"
                 },
                 "tagline": {
                   "index": 5,
@@ -245,7 +245,7 @@
                   "isCellVisible": true,
                   "isDerived": false,
                   "label": "tagline",
-                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.tagline))}}"
+                  "computedValue": "{{New_Movies.sanitizedTableData.map((currentRow) => ( currentRow.tagline))}}"
                 },
                 "title": {
                   "index": 7,
@@ -262,7 +262,7 @@
                   "isCellVisible": true,
                   "isDerived": false,
                   "label": "title",
-                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.title))}}"
+                  "computedValue": "{{New_Movies.sanitizedTableData.map((currentRow) => ( currentRow.title))}}"
                 },
                 "vote_count": {
                   "index": 8,
@@ -279,7 +279,7 @@
                   "isCellVisible": true,
                   "isDerived": false,
                   "label": "vote_count",
-                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.vote_count))}}"
+                  "computedValue": "{{New_Movies.sanitizedTableData.map((currentRow) => ( currentRow.vote_count))}}"
                 },
                 "poster_path": {
                   "index": 9,
@@ -296,7 +296,7 @@
                   "isCellVisible": true,
                   "isDerived": false,
                   "label": "poster_path",
-                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.poster_path))}}"
+                  "computedValue": "{{New_Movies.sanitizedTableData.map((currentRow) => ( currentRow.poster_path))}}"
                 },
                 "status": {
                   "index": 2,
@@ -312,7 +312,7 @@
                   "isCellVisible": true,
                   "isDerived": false,
                   "label": "status",
-                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.status))}}",
+                  "computedValue": "{{New_Movies.sanitizedTableData.map((currentRow) => ( currentRow.status))}}",
                   "labelColor": "#FFFFFF"
                 },
                 "homepage": {
@@ -330,13 +330,13 @@
                   "isCellVisible": true,
                   "isDerived": false,
                   "label": "homepage",
-                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.homepage))}}"
+                  "computedValue": "{{New_Movies.sanitizedTableData.map((currentRow) => ( currentRow.homepage))}}"
                 }
               },
               "delimiter": ",",
               "key": "q2kuwf0wd6",
               "derivedColumns": {},
-              "rightColumn": 55,
+              "rightColumn": 63,
               "textSize": "0.875rem",
               "widgetId": "0jaj02480c",
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -403,7 +403,7 @@
         ],
         "widgetNames": [
           "MainContainer",
-          "Table1"
+          "New_Movies"
         ],
         "validOnPageLoadActions": true,
         "id": "Page1",
