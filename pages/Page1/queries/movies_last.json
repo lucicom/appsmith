@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "mongo-plugin",
   "unpublishedAction": {
-    "name": "Query3",
+    "name": "movies_last",
     "datasource": {
       "name": "movies",
       "pluginId": "mongo-plugin",
@@ -109,7 +109,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Page1_Query3",
+  "id": "Page1_movies_last",
   "deleted": false,
   "gitSyncId": "628d2ca082ba605739e33e43_628d2f1d82ba605739e33e4f"
 }

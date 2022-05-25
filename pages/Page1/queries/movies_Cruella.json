@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "mongo-plugin",
   "unpublishedAction": {
-    "name": "Query2",
+    "name": "movies_Cruella",
     "datasource": {
       "name": "movies",
       "pluginId": "mongo-plugin",
@@ -69,7 +69,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Page1_Query2",
+  "id": "Page1_movies_Cruella",
   "deleted": false,
   "gitSyncId": "628d2ca082ba605739e33e43_628d2e9882ba605739e33e4d"
 }

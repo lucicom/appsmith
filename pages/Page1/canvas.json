@@ -341,7 +341,7 @@
               "widgetId": "0jaj02480c",
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
               "isVisibleFilters": true,
-              "tableData": "{{Query3.data}}",
+              "tableData": "{{movies_last.data}}",
               "isVisible": true,
               "label": "Data",
               "searchKey": "",
@@ -384,16 +384,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Page1_Query1",
-              "name": "Query1",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Page1_Query3",
-              "name": "Query3",
+              "id": "Page1_movies_last",
+              "name": "movies_last",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],
