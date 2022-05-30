@@ -22,6 +22,9 @@
         "aggregate": {
           "limit": {
             "data": "10"
+          },
+          "arrayPipelines": {
+            "data": ""
           }
         },
         "body": {
@@ -33,9 +36,25 @@
         "command": {
           "data": "FIND"
         },
+        "count": {
+          "query": {
+            "data": ""
+          }
+        },
         "delete": {
           "limit": {
             "data": "SINGLE"
+          },
+          "query": {
+            "data": ""
+          }
+        },
+        "distinct": {
+          "query": {
+            "data": ""
+          },
+          "key": {
+            "data": ""
           }
         },
         "find": {
@@ -43,10 +62,21 @@
             "data": "{ \"homepage\": \"https://movies.disney.com/cruella\"}"
           },
           "limit": {
-            "data": "10"
+            "data": "5"
           },
           "sort": {
             "data": "{\"_id\": 1}"
+          },
+          "skip": {
+            "data": ""
+          },
+          "projection": {
+            "data": ""
+          }
+        },
+        "insert": {
+          "documents": {
+            "data": ""
           }
         },
         "smartSubstitution": {
@@ -55,11 +85,18 @@
         "updateMany": {
           "limit": {
             "data": "SINGLE"
+          },
+          "query": {
+            "data": ""
+          },
+          "update": {
+            "data": ""
           }
         }
       }
     },
     "executeOnLoad": false,
+    "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
     "messages": [],
